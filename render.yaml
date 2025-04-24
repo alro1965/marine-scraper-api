@@ -2,5 +2,5 @@ services:
   - type: web
     name: marine-scraper-api
     env: python
-    buildCommand: ""
+    buildCommand: ""  # explícitamente vacío
     startCommand: python scraper_server.py
