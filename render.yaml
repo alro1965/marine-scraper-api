@@ -2,7 +2,4 @@ services:
   - type: web
     name: marine-scraper-api
     env: python
-    plan: free
-    buildCommand: pip install -r requirements.txt
     startCommand: python scraper_server.py
-    autoDeploy: true
